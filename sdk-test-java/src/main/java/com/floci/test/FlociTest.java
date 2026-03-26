@@ -90,6 +90,7 @@ import java.util.Set;
  *   <li>{@code cloudwatch-logs}
  *   <li>{@code cloudwatch-metrics}
  *   <li>{@code secretsmanager}
+ *   <li>{@code sfn-jsonata}
  *   <li>{@code s3-virtual-host}
  *   <li>{@code ses}
  * </ul>
@@ -138,6 +139,7 @@ public class FlociTest {
                 new KmsTests(),
                 new CognitoTests(),
                 new StepFunctionsTests(),
+                new StepFunctionsJsonataTests(),
                 new SesTests()
         );
 
