@@ -147,6 +147,11 @@
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>opensearch</artifactId>
         </dependency>
+        <!-- CloudFormation client -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>cloudformation</artifactId>
+        </dependency>
         <!-- JDBC drivers for RDS data-plane tests -->
         <dependency>
             <groupId>org.postgresql</groupId>
